@@ -1,0 +1,37 @@
+.configure {
+  width: 60%;
+  margin: 60px auto 0;
+  .configure-table {
+    &-header, &-body-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-header {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    &-body-row:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    &__item {
+      text-align: left;
+      width: 25%;
+      padding: 4px 16px;
+      &:first-child {
+        width: 50%;
+      }
+    }
+    &__item--actions {
+      display: flex;
+      padding: 0;
+    }
+  }
+
+  &-add {
+    .btn {
+      width: 40%;
+      margin: 16px auto 0;
+    }
+  }
+}

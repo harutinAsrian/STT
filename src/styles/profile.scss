@@ -1,0 +1,43 @@
+.profile {
+  width: 60%;
+  margin: 60px auto 0;
+  height: fit-content;
+  padding-bottom: 108px;
+  position: relative;
+
+  &-row {
+    display: flex;
+
+    label {
+      width: 200px;
+    }
+    input, textarea {
+      padding: 4px;
+      width: 60%;
+    }
+
+    textarea {
+      // height: 150px;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      resize: none;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+
+  .profile-submit {
+    position: absolute;
+    bottom: 0;
+  }
+}

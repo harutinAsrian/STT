@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "type": "name",
+      "details": {
+        "label": "Full Name",
+        "required": true,
+        "visible": true,
+        "rows": 1
+      },
+      "id": "f06a821-2ddf-41d3-c15e-1bfeef18e"
+    },
+    {
+      "type": "name",
+      "details": {
+        "label": "Job Title",
+        "required": true,
+        "visible": true,
+        "rows": 1
+      },
+      "id": "33af381-7b3-0fd7-205-bfde086720"
+    },
+    {
+      "type": "name",
+      "details": {
+        "label": "age",
+        "required": true,
+        "visible": true,
+        "rows": 1
+      },
+      "id": "c70ad04-70f0-76f3-667-1b17f7f70f4"
+    },
+    {
+      "type": "name",
+      "details": {
+        "label": "profession",
+        "required": true,
+        "visible": true,
+        "rows": 1
+      },
+      "id": "ea868ef-0367-fac1-3651-72b36f17aa6"
+    },
+    {
+      "type": "link",
+      "details": {
+        "label": "Profile link",
+        "required": false,
+        "visible": true,
+        "rows": 1
+      },
+      "id": "2560280-c61f-7dc4-bbd-2751c8b2bdd"
+    },
+    {
+      "type": "text",
+      "details": {
+        "label": "description",
+        "required": false,
+        "visible": true,
+        "rows": "4"
+      },
+      "id": "460ae14-bbd-7fb6-5b5c-fd0ee20301"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+$navBackground: #1E262D;
+$borderColor: #F77A26;
+
+// Button Background
+$primary-button-background: #59BEDC;
+$primary-button-hover-background: lighten(#59BEDC, 5%);
+$primary-button-focus-background: darken(#59BEDC, 5%);
+
+$secondary-button-background: #ffffff;
+$secondary-button-hover-background: lighten(#ffffff, 5%);
+$secondary-button-focus-background: darken(#ffffff, 5%);
+
+$danger-button-background: #D9498A;
+$danger-button-hover-background: lighten(#D9498A, 5%);
+$danger-button-focus-background: darken(#D9498A, 5%);
+
+// Button Border Color
+$primary-button-border-color: transparent;
+$primary-button-border-hover-color: transparent;
+$primary-button-border-focus-color: transparent;
+
+$secondary-button-border-color: #212121;
+$secondary-button-border-hover-color: #212121;
+$secondary-button-border-focus-color: #212121;
+
+$danger-button-border-color: transparent;
+$danger-button-border-hover-color: transparent;
+$danger-button-border-focus-color: transparent;

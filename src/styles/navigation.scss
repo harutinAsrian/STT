@@ -1,0 +1,42 @@
+.navigation {
+  background-color: $navBackground;
+  width: 200px;
+  height: 100vh;
+  
+  &-wrapper {
+    list-style: none;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-item {
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 18px;
+    position: relative;
+    color: white;
+  }
+
+  a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  a.active {
+    font-weight: bold;
+  }
+
+  a.active::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: $borderColor;
+  }
+}
